@@ -76,7 +76,6 @@ BEGIN
     WHERE status = 'Open' AND created_at < (NOW() - INTERVAL 12 HOUR);
 END$$
 DELIMITER ;
-
 -- Indexes for Optimization
 CREATE INDEX idx_user_email ON users(email);
 CREATE INDEX idx_listing_status ON listings(status);

@@ -1,4 +1,4 @@
-# Unitrade-Stu
+# Unitrade-St
 is a digital platform enabling university students to monetize their expertise (e.g., tutoring, design, coding) by connecting with clients for freelance opportunities as a side hustle while balancing academic commitments.
 -- Create Database
 CREATE DATABASE unitrade_student_skills_db;
